@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
       # define a function that assigns to "inv" the value of "solved"
       setinv <- function(solved) inv <<- solved
       
-      # read the value of m into a function called "getmean()"
+      # read the value of "inv" into a function called "getinv()"
       getinv <- function() inv
       list(set = set, get = get,
            setinv = setinv,
